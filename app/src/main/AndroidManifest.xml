@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.happyhomes.technician" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/worker"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/worker"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".View_feedbackActivity" />
+        <activity android:name=".WorkDone_Approve" />
+        <activity android:name=".WorkAcceptActivity" />
+        <activity android:name=".Password_reset" />
+        <activity android:name=".EditProfile" />
+        <activity android:name="com.example.technician.editprofile" />
+        <activity android:name=".SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".profileActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".contactusActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".historyActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".workdoneActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".workActivity"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".HomeTech"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".techsignup"
+            android:screenOrientation="userPortrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="userPortrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

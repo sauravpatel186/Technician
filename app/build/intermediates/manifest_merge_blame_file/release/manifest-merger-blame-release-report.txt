@@ -1,0 +1,356 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.happyhomes.technician"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:6:5-80
+11-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:6:22-77
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:7:5-69
+12-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:7:22-66
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:8:5-67
+13-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:8:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:9:5-76
+14-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.SEND_SMS" />
+16-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:11:5-67
+16-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:12:5-79
+17-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:12:22-76
+18    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:24:5-68
+18-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:24:22-65
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+19-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+20
+21    <application
+21-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:14:5-62:19
+22        android:allowBackup="true"
+22-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:15:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.3.0-alpha02] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\731610e13729cc8cc691f531cdebaf0f\core-1.3.0-alpha02\AndroidManifest.xml:24:18-86
+24        android:icon="@drawable/worker"
+24-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:16:9-40
+25        android:label="@string/app_name"
+25-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:17:9-41
+26        android:roundIcon="@drawable/worker"
+26-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:18:9-45
+27        android:supportsRtl="true"
+27-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:19:9-35
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:20:9-40
+29        <activity android:name="com.happyhomes.technician.View_feedbackActivity" />
+29-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:21:9-59
+29-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:21:19-56
+30        <activity android:name="com.happyhomes.technician.WorkDone_Approve" />
+30-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:22:9-54
+30-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:22:19-51
+31        <activity android:name="com.happyhomes.technician.WorkAcceptActivity" />
+31-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:23:9-56
+31-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:23:19-53
+32        <activity android:name="com.happyhomes.technician.Password_reset" />
+32-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:24:9-52
+32-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:24:19-49
+33        <activity android:name="com.happyhomes.technician.EditProfile" />
+33-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:25:9-49
+33-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:25:19-46
+34        <activity android:name="com.example.technician.editprofile" />
+34-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:26:9-71
+34-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:26:19-68
+35        <activity android:name="com.happyhomes.technician.SplashActivity" >
+35-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:27:9-33:20
+35-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:27:19-49
+36            <intent-filter>
+36-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:28:13-32:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:29:17-69
+37-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:29:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:31:17-77
+39-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:31:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:34:9-36:56
+43            android:name="com.happyhomes.technician.profileActivity"
+43-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:35:13-44
+44            android:screenOrientation="userPortrait" />
+44-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:36:13-53
+45        <activity
+45-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:37:9-39:56
+46            android:name="com.happyhomes.technician.contactusActivity"
+46-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:38:13-46
+47            android:screenOrientation="userPortrait" />
+47-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:39:13-53
+48        <activity
+48-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:40:9-42:56
+49            android:name="com.happyhomes.technician.historyActivity"
+49-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:41:13-44
+50            android:screenOrientation="userPortrait" />
+50-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:42:13-53
+51        <activity
+51-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:43:9-45:56
+52            android:name="com.happyhomes.technician.workdoneActivity"
+52-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:44:13-45
+53            android:screenOrientation="userPortrait" />
+53-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:45:13-53
+54        <activity
+54-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:46:9-48:56
+55            android:name="com.happyhomes.technician.workActivity"
+55-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:47:13-41
+56            android:screenOrientation="userPortrait" />
+56-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:48:13-53
+57        <activity
+57-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:49:9-51:56
+58            android:name="com.happyhomes.technician.HomeTech"
+58-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:50:13-37
+59            android:screenOrientation="userPortrait" />
+59-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:51:13-53
+60        <activity
+60-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:52:9-54:56
+61            android:name="com.happyhomes.technician.techsignup"
+61-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:53:13-39
+62            android:screenOrientation="userPortrait" />
+62-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:54:13-53
+63        <activity
+63-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:55:9-57:56
+64            android:name="com.happyhomes.technician.MainActivity"
+64-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:56:13-41
+65            android:screenOrientation="userPortrait" />
+65-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:57:13-53
+66
+67        <meta-data
+67-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:59:9-61:57
+68            android:name="preloaded_fonts"
+68-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:60:13-43
+69            android:resource="@array/preloaded_fonts" />
+69-->C:\Users\thera\OneDrive\Desktop\Project\HomeServiceProjectTechnician\app\src\main\AndroidManifest.xml:61:13-54
+70
+71        <activity
+71-->[com.karumi:dexter:6.1.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\6d1898c6b3e205ee39d0fba2832e3a7c\jetified-dexter-6.1.0\AndroidManifest.xml:27:9-29:72
+72            android:name="com.karumi.dexter.DexterActivity"
+72-->[com.karumi:dexter:6.1.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\6d1898c6b3e205ee39d0fba2832e3a7c\jetified-dexter-6.1.0\AndroidManifest.xml:28:13-60
+73            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+73-->[com.karumi:dexter:6.1.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\6d1898c6b3e205ee39d0fba2832e3a7c\jetified-dexter-6.1.0\AndroidManifest.xml:29:13-69
+74        <activity
+74-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+75            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+75-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+79            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+79-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+81
+82        <service
+82-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:33:9-39:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:34:13-84
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\6062be8dc8e5312bbc1e6cb8a126d683\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:35:13-37
+86            <meta-data
+86-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+87                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+87-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\07901faff3aa4fbd7b9454ee6c7e6c9d\jetified-firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+89            <meta-data
+89-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\55f9f65be4e1ba01a2d36572409a0c37\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+90                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+90-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\55f9f65be4e1ba01a2d36572409a0c37\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+91                android:value="com.google.firebase.components.ComponentRegistrar" />
+91-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\55f9f65be4e1ba01a2d36572409a0c37\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+92            <meta-data
+92-->[com.google.firebase:firebase-database:19.2.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\4fc743511f2d217745d65af60a769d9f\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+93                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+93-->[com.google.firebase:firebase-database:19.2.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\4fc743511f2d217745d65af60a769d9f\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+94                android:value="com.google.firebase.components.ComponentRegistrar" />
+94-->[com.google.firebase:firebase-database:19.2.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\4fc743511f2d217745d65af60a769d9f\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+95            <meta-data
+95-->[com.google.firebase:firebase-functions:19.0.2] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\831beda3533c1e955abdbc01ac354a82\jetified-firebase-functions-19.0.2\AndroidManifest.xml:18:13-20:85
+96                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+96-->[com.google.firebase:firebase-functions:19.0.2] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\831beda3533c1e955abdbc01ac354a82\jetified-firebase-functions-19.0.2\AndroidManifest.xml:19:17-111
+97                android:value="com.google.firebase.components.ComponentRegistrar" />
+97-->[com.google.firebase:firebase-functions:19.0.2] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\831beda3533c1e955abdbc01ac354a82\jetified-firebase-functions-19.0.2\AndroidManifest.xml:20:17-82
+98            <meta-data
+98-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\3d7cd6ea470af152f5a2d9564011b18c\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:38:13-40:85
+99                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+99-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\3d7cd6ea470af152f5a2d9564011b18c\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:39:17-119
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\3d7cd6ea470af152f5a2d9564011b18c\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:40:17-82
+101            <meta-data
+101-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d8452e50ad92fe1bc56be22a4ac078b0\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:20:13-22:85
+102                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+102-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d8452e50ad92fe1bc56be22a4ac078b0\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:21:17-111
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d8452e50ad92fe1bc56be22a4ac078b0\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:22:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+105                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+105-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+107            <meta-data
+107-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\220da3d4666358e7532139fadfc42a11\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+108                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+108-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\220da3d4666358e7532139fadfc42a11\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\220da3d4666358e7532139fadfc42a11\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\2e193017261df8f538bcc6b529070b35\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+111                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+111-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\2e193017261df8f538bcc6b529070b35\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\2e193017261df8f538bcc6b529070b35\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+113        </service>
+114        <!--
+115             FirebaseMessagingService performs security checks at runtime,
+116             but set to not exported to explicitly avoid allowing another app to call it.
+117        -->
+118        <service
+118-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\3d7cd6ea470af152f5a2d9564011b18c\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:28:9-34:19
+119            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+119-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\3d7cd6ea470af152f5a2d9564011b18c\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:29:13-82
+120            android:exported="false" >
+120-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\3d7cd6ea470af152f5a2d9564011b18c\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:30:13-37
+121            <intent-filter android:priority="-500" >
+121-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\3d7cd6ea470af152f5a2d9564011b18c\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:31:13-33:29
+121-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\3d7cd6ea470af152f5a2d9564011b18c\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:31:28-51
+122                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+122-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\3d7cd6ea470af152f5a2d9564011b18c\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:32:17-78
+122-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\3d7cd6ea470af152f5a2d9564011b18c\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:32:25-75
+123            </intent-filter>
+124        </service>
+125
+126        <activity
+126-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d33cafd18cb2120ddbaa6dbae29ef110\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+127            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+127-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d33cafd18cb2120ddbaa6dbae29ef110\jetified-play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+128            android:excludeFromRecents="true"
+128-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d33cafd18cb2120ddbaa6dbae29ef110\jetified-play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d33cafd18cb2120ddbaa6dbae29ef110\jetified-play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d33cafd18cb2120ddbaa6dbae29ef110\jetified-play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+131        <!--
+132            Service handling Google Sign-In user revocation. For apps that do not integrate with
+133            Google Sign-In, this service will never be started.
+134        -->
+135        <service
+135-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d33cafd18cb2120ddbaa6dbae29ef110\jetified-play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+136            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+136-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d33cafd18cb2120ddbaa6dbae29ef110\jetified-play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+137            android:exported="true"
+137-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d33cafd18cb2120ddbaa6dbae29ef110\jetified-play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+138            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+138-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\d33cafd18cb2120ddbaa6dbae29ef110\jetified-play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+139
+140        <receiver
+140-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+141            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+141-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+142            android:exported="true"
+142-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+143            android:permission="com.google.android.c2dm.permission.SEND" >
+143-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+144            <intent-filter>
+144-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+145                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+145-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+145-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8954121bce950e7ef40c2e46cf475ba0\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+146            </intent-filter>
+147        </receiver>
+148
+149        <activity
+149-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\268d20ca4cfe0cbe54a0f90311f00789\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+150            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+150-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\268d20ca4cfe0cbe54a0f90311f00789\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+151            android:exported="false"
+151-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\268d20ca4cfe0cbe54a0f90311f00789\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+152            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+152-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\268d20ca4cfe0cbe54a0f90311f00789\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+153
+154        <provider
+154-->[com.google.firebase:firebase-common:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\6062be8dc8e5312bbc1e6cb8a126d683\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+155            android:name="com.google.firebase.provider.FirebaseInitProvider"
+155-->[com.google.firebase:firebase-common:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\6062be8dc8e5312bbc1e6cb8a126d683\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+156            android:authorities="com.happyhomes.technician.firebaseinitprovider"
+156-->[com.google.firebase:firebase-common:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\6062be8dc8e5312bbc1e6cb8a126d683\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+157            android:exported="false"
+157-->[com.google.firebase:firebase-common:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\6062be8dc8e5312bbc1e6cb8a126d683\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+158            android:initOrder="100" />
+158-->[com.google.firebase:firebase-common:19.3.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\6062be8dc8e5312bbc1e6cb8a126d683\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+159
+160        <meta-data
+160-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\b3984d373323603c1aa307fa21d92133\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+161            android:name="com.google.android.gms.version"
+161-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\b3984d373323603c1aa307fa21d92133\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+162            android:value="@integer/google_play_services_version" />
+162-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\b3984d373323603c1aa307fa21d92133\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+163
+164        <provider
+164-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\5a7bdb50186ee767d0105260e1b0102a\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+165            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+165-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\5a7bdb50186ee767d0105260e1b0102a\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+166            android:authorities="com.happyhomes.technician.lifecycle-process"
+166-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\5a7bdb50186ee767d0105260e1b0102a\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+167            android:exported="false"
+167-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\5a7bdb50186ee767d0105260e1b0102a\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+168            android:multiprocess="true" />
+168-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\5a7bdb50186ee767d0105260e1b0102a\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+169
+170        <service
+170-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\ad34cf8a937ec85722b241464dd8a17b\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+171            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+171-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\ad34cf8a937ec85722b241464dd8a17b\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+172            android:exported="false" >
+172-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\ad34cf8a937ec85722b241464dd8a17b\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+173            <meta-data
+173-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\ad34cf8a937ec85722b241464dd8a17b\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+174                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+174-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\ad34cf8a937ec85722b241464dd8a17b\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+175                android:value="cct" />
+175-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\ad34cf8a937ec85722b241464dd8a17b\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+176        </service>
+177        <service
+177-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8ec9fc7ebc9cfb825eb556e7b053fad7\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+178            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+178-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8ec9fc7ebc9cfb825eb556e7b053fad7\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+179            android:exported="false"
+179-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8ec9fc7ebc9cfb825eb556e7b053fad7\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+180            android:permission="android.permission.BIND_JOB_SERVICE" >
+180-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8ec9fc7ebc9cfb825eb556e7b053fad7\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+181        </service>
+182
+183        <receiver
+183-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8ec9fc7ebc9cfb825eb556e7b053fad7\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+184            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+184-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8ec9fc7ebc9cfb825eb556e7b053fad7\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+185            android:exported="false" />
+185-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\thera\.gradle\caches\transforms-2\files-2.1\8ec9fc7ebc9cfb825eb556e7b053fad7\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+186    </application>
+187
+188</manifest>

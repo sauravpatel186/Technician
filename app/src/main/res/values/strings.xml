@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Happpy Homes</string>
+    <string name="utechname">Email Id</string>
+    <string name="techpass">Password</string>
+    <string name="loginbtn">Login</string>
+    <string name="not_registered">New User? Click Here to SignUp</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_home_tech">HomeTech</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_profile">Profile</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">confirm Password</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="dob">D.O.B</string>
+    <string name="fname">Full Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string-array name="techlist">
+        <item>Carpenter</item>
+        <item>Painter</item>
+        <item>Plumber</item>
+        <item>Mechanic</item>
+        <item>Electrician</item>
+        <item>Pest Control</item>
+    </string-array>
+    <string-array name="rating">
+        <item>All</item>
+        <item>1 Star</item>
+        <item>2 Star</item>
+        <item>3 Star</item>
+        <item>4 Star</item>
+        <item>5 Star</item>
+    </string-array>
+</resources>
